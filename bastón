@@ -1,0 +1,11 @@
+#include <SoftwareSerial.h>
+#include <TinyGPS++.h>
+
+// Definición de pines
+const int trigPin1 = 9;  // Sensor ultrasónico 1 - Trigger
+const int echoPin1 = 10; // Sensor ultrasónico 1 - Echo
+const int trigPin2 = 7;  // Sensor ultrasónico 2 - Trigger
+const int echoPin2 = 8;  // Sensor ultrasónico 2 - Echo
+const int alertPin = 6;  // Pin para el buzzer o motor vibrador
+const int emergencyButton = 2;  // Botón de emergencia
+const int ledEmergencia = 7;  // LED de emergencia
